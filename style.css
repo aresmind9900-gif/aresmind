@@ -1,0 +1,64 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 1rem;
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem;
+    text-align: center;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.video-container {
+    flex: 1; /* видео хоёрыг тэнцүү зайд тараана */
+    max-width: 500px; /* Хамгийн их өргөн */
+    min-width: 300px; /* Миним өргөн, responsive */
+}
+.cs2-settings {
+  display: flex;            /* flexbox ашиглана */
+  align-items: center;      /* vertical center */
+  justify-content: space-between; /* зүүн/баруун талд зай тавина */
+  gap: 20px;                /* контентыг хооронд нь зайтай */
+  margin: 20px 0;
+}
+
+.cs2-settings .text {
+  flex: 1;                  /* текст хэсэг эзлэх зай */
+}
+
+.cs2-settings .image img {
+  width: 150px;             /* зурагны өргөн */
+  height: auto;
+  border-radius: 8px;       /* хүсвэл буланд radius */
+}
